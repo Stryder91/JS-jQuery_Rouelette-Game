@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Roulette_jQuery</title>
+    <link rel="stylesheet" href="style/css/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/jquery.js"></script>
+</head>
+<body>
+    <section class="container text-center">
+        <h1>My Roulette</h1>
+        <div class="row d-flex justify-content-center">
+            <label class="col-12" for="number">Choisissez un nombre entre 1 et 50</label>
+            <input id="number" type="text" placeholder="Choisissez un nombre" required>
+            <button type="submit">Go!</button>
+            <div class="col-12 message"></div>
+            <div class="textMoney">Votre argent : <span class="moneyLeft"></span></div>
+            <div class="col-12 text-center">
+                <div class="circle d-flex">
+                    Numéro gagnant est <div class="number"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script/index.js">
+    </script>
+</body>
+</html>
